@@ -1,2 +1,11 @@
 
 NetBeansProjects/Aula02/
+*.fxml
+*.xml
+*.cmd
+PrimeiroFx/mvnw
+*.properties
+*.xml
+*.xml
+*.xml
+*.xml
