@@ -9,3 +9,8 @@ PrimeiroFx/mvnw
 *.xml
 *.xml
 *.xml
+*.mf
+*.class
+ContaBancaria/build/classes/.netbeans_automatic_build
+ContaBancaria/build/classes/.netbeans_update_resources
+*.jar
