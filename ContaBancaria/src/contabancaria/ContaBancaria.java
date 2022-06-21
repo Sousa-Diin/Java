@@ -31,7 +31,7 @@ public class ContaBancaria {
             else{
                 
                 investidor +=1;
-            }
+            }// ERROR mostra apenas essa condição 
         }
         
         
