@@ -10,8 +10,8 @@ public class ContaBancaria {
         ArrayList<Cliente> clientes = new ArrayList();
        // Scanner javain = new Scanner(System.in);
         
-        Cliente cliente = new Cliente("Itau","wildes","poupanca",1473, 0743,'3');
-        Cliente cliente1 = new Cliente("Caixa","Wildes","corrente",129, 0743,'0');
+        Cliente cliente = new Cliente("Itau","wildes","poupanca","1473", "0743","3");
+        Cliente cliente1 = new Cliente("Caixa","Wildes","corrente","129", "0743","0");
         
         
         clientes.add(cliente);

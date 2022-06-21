@@ -209,7 +209,8 @@ public class JanelaCliente extends javax.swing.JFrame {
         //String tipoConta; /*Variavel global criada  */ 
         if (rbtCorrente.hasFocus()){
             tipoConta = "corrente"; 
-        }        
+        } 
+        
         
     }//GEN-LAST:event_rbtCorrenteActionPerformed
 
@@ -217,9 +218,9 @@ public class JanelaCliente extends javax.swing.JFrame {
         
         String banco = txtBanco.getText();
         String titular = txtTitular.getText();
-        int agencia = txtAgencia.getColumns();
-        int conta = txtConta.getFocusAccelerator();
-        char dvConta = txtDvConta.getFocusAccelerator();
+        String agencia = txtAgencia.getText();
+        String conta = txtConta.getText();
+        String dvConta = txtDvConta.getText();
         
         Cliente novo = new Cliente(banco,titular,tipoConta, agencia,conta,dvConta);
         
@@ -235,6 +236,13 @@ public class JanelaCliente extends javax.swing.JFrame {
         System.out.print("\nConta: " + novo.getConta());
         System.out.print("\tDigito: " + novo.getDvConta());
         System.out.println("\n");
+        
+        //Limpa os campos
+        txtBanco.setText("");
+        txtTitular.setText("");
+        txtAgencia.setText("");
+        txtConta.setText("");
+        txtDvConta.setText("");
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void rbtPoupancaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbtPoupancaActionPerformed

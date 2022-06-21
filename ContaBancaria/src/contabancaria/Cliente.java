@@ -5,9 +5,9 @@ public class Cliente {
     private String banco;//nome do Banco
     private String titular;//nome do correntista 
     private String tipoConta;//Corrente ou Poupança
-    private int agencia;/*número da agencia*/
-    private int conta;/*número da comnta */
-    private char dvConta;//digito de verificação da conta
+    private String agencia;/*número da agencia*/
+    private String conta;/*número da comnta */
+    private String dvConta;//digito de verificação da conta
     
     //construtor Padrão
     public Cliente(){
@@ -15,7 +15,7 @@ public class Cliente {
     }
     
     //Contrutor c/ parametros full
-    public Cliente(String banco, String titular,String tipoConta, int agencia, int conta, char dvConta){
+    public Cliente(String banco, String titular,String tipoConta, String agencia, String conta, String dvConta){
         this.banco = banco;
         this.titular = titular;
         this.tipoConta = tipoConta;
@@ -48,28 +48,28 @@ public class Cliente {
         this.tipoConta = tipoConta;
     }
 
-    public int getAgencia() {
+    public String getAgencia() {
         return agencia;
     }
 
-    public void setAgencia(int agencia) {
+    public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
 
 
-    public int getConta() {
+    public String getConta() {
         return conta;
     }
 
-    public void setConta(int conta) {
+    public void setConta(String conta) {
         this.conta = conta;
     }
 
-    public char getDvConta() {
+    public String getDvConta() {
         return dvConta;
     }
 
-    public void setDvConta(char dvConta) {
+    public void setDvConta(String dvConta) {
         this.dvConta = dvConta;
     }  
     
