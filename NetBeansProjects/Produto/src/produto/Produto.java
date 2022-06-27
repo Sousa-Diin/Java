@@ -39,15 +39,15 @@ public class Produto {
         if (valorBruto > 0 && valorBruto < 250f){
             desconto = valorBruto * 0.5f;
         }
-        else if (valorBruto >= 250f)
+        else if (valorBruto <= 250f)
             desconto = valorBruto * 0.10f;
         else if (valorBruto > 500f)
             desconto = valorBruto * 0.15f;
         
-        System.out.println("Preço unitario: " + preco
-            + "\nValor bruto: " + valorBruto
-            + "\nDesconto: " + desconto 
-            + "\nValor final: " + (valorBruto - desconto));
+        System.out.println("Preço unitario: " + preco);
+        System.out.println("Valor bruto: " + valorBruto); 
+        System.out.println("Desconto: " + desconto );
+        System.out.println("Valor final: %.2f"+  (valorBruto - desconto));
         
     }
     
