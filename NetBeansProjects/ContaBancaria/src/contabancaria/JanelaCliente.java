@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package contabancaria;
 
 /**
@@ -15,7 +12,7 @@ public class JanelaCliente extends javax.swing.JFrame {
      */
     DadosBancario dadosBancarios = new DadosBancario();
     
-    String tipoConta;
+    static String tipoConta;
     public JanelaCliente() {
         initComponents();
     }
@@ -250,6 +247,7 @@ public class JanelaCliente extends javax.swing.JFrame {
     private void rbtPoupancaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbtPoupancaActionPerformed
        if (rbtPoupanca.hasFocus()){
             tipoConta = "poupanca"; 
+           // rbtPoupanca.areFocusTraversalKeysSet(0);ERRO
         }
     }//GEN-LAST:event_rbtPoupancaActionPerformed
 

@@ -24,6 +24,7 @@ public class Cliente {
         this.dvConta = dvConta;
     }
 
+    //método acessores
     public String getBanco() {
         return banco;
     }
