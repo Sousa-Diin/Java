@@ -10,7 +10,7 @@ public class AlunoTeste {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner (System.in);
-        Aluno aluno, aluno1;
+        Aluno aluno, aluno1, aluno2, aluno3;
         String nome, cat;
         int qtdDisciplina, notas, totAlunos= 0;
         
@@ -30,7 +30,9 @@ public class AlunoTeste {
             notas = scanner.nextInt();
             aluno.inserirNota(notas);
         }
-        aluno1 = aluno; aluno1.setCat("nãobolsista");
+        aluno1 = new Aluno();// inicializa c/Construtor padrão
+        aluno2 = new Aluno();
+        aluno3 = new Aluno();
         
         System.out.println("\n############# RELATÓRIO FINAL #############");
         System.out.printf("Coeficiente de Rendimento: %.2f \n", aluno.rendimento());
@@ -38,10 +40,10 @@ public class AlunoTeste {
         
         System.out.println("\n");
         
-        totAlunos = getTotAlunos();
+        totAlunos = getTotAlunos();//metodo da classe
         System.out.println("\n############# RELATÓRIO FINAL #############");
-        System.out.printf("Coeficiente de Rendimento: %.2f \n", aluno1.rendimento());
-        System.out.println("Situação final: " + aluno1.studentSituation());
+        //System.out.printf("Coeficiente de Rendimento: %.2f \n", aluno1.rendimento());
+       // System.out.println("Situação final: " + aluno1.studentSituation());
         System.out.println("\nTotal de alunos " + totAlunos);
     }
     

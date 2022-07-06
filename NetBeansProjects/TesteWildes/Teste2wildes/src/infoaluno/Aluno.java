@@ -9,8 +9,13 @@ public class Aluno {
     private String cat;
     private ArrayList <Integer> notas;
     private boolean verificaCat;
-    private static int totAlunos = 0;
+    private static int totAlunos = 0; // atributo da classe
 
+    //construtor default
+    public Aluno(){
+        totAlunos++;
+    }
+    
     public Aluno(String nome, String cat) {
         
         this.nome = nome;
@@ -32,7 +37,7 @@ public class Aluno {
     public void setCat(String cat) {
         this.cat = cat;
     }
-
+    //Return atributo da classe
     public static int getTotAlunos() {
         return totAlunos;
     }
