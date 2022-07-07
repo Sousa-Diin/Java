@@ -3,7 +3,7 @@
  <html>
  <head> 
     <meta charset="utf-8">
-    <title>Projects<title/>
+    <title>Projects</title>
     
 </head>
 <body>
