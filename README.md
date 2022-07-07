@@ -1,8 +1,8 @@
 # Java
- <!DOCTYPE html5>
- <html lang="pt-br">
+ <!DOCTYPE html>
+ <html>
  <head> 
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Projects<title/>
     
 </head>
