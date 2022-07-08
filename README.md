@@ -17,5 +17,5 @@
            </ul>
         </li>
     </ul>
-    <img src="tela1.png">
+    <img width="50%" src="tela1.png">
 </div>
