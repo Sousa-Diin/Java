@@ -18,7 +18,7 @@
         </li>
     </ul>
     <div>
-        <img width="40%" src="tela1.png">
+        <img width="35%" src="tela1.png">
         <img width="30%" src="tela2.png">
         <img width="30%" src="tela3.png">
     </div>
