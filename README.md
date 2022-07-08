@@ -12,7 +12,8 @@
             <img width="30%" src="telaBank1.png">
             <img width="30%" src="telaBank2.png">
             <img width="25%" src="telaBank3.png">
-    </div>
+</div>
+ <div>
         <li>DateStructsType</li>
         <li>ProjectFx</li>
         <li>ExersiseAtClass
@@ -24,12 +25,12 @@
         </li>
     </ul>
 
-<div>
-    
+</div>
+<div>   
     <h3><a href="https://github.com/Sousa-Diin/Java/tree/main/ExerciciosAula/src/lista">Código fonte acesse aqui</a></h3>
         <img width="35%" src="tela1.png">
         <img width="30%" src="tela2.png">
         <img width="30%" src="tela3.png">
-    </div>
+   
     
 </div>
