@@ -17,5 +17,5 @@
            </ul>
         </li>
     </ul>
-    <img src="../ExerciciosAlua/src/img/tela1.png">
+    <img src="tela1.png">
 </div>
