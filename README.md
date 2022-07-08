@@ -6,7 +6,7 @@
 </div>
 <div>
     <ul>
-        <li>ContaBancaria</li>
+        <li><h2>ContaBancaria</he></li>
         <div>
         <h3><a href="https://github.com/Sousa-Diin/Java/tree/main/ContaBancaria/src/contabancaria">Código fonte acesse aqui</a> <b>ContaBancaria</b></h3>
             <img width="30%" src="telaBank1.png">
@@ -14,13 +14,13 @@
             <img width="25%" src="telaBank3.png">
 </div>
  <div>
-        <li>DateStructsType</li>
-        <li>ProjectFx</li>
-        <li>ExersiseAtClass
+        <li><h2>DateStructsType</h2></li>
+        <li><h2>ProjectFx</h2></li>
+        <li><h2>ExersiseAtClass</h2>
            <ul>
-              <li>Fila</li>
-              <li>Lista</li>
-              <li>Pilha</li>
+              <h4><li>Fila</h4></li>
+              <h4><li>Lista</h4></li>
+              <h4><li>Pilha</h4></li>
            </ul>
         </li>
     </ul>
