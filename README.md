@@ -4,6 +4,7 @@
 <figure><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png"/></figure>
     <h1>Iniciativa de projetos</h1>
 </div>
+<div>
     <ul>
         <li>ContaBancaria</li>
         <li>DateStructsType</li>
@@ -16,4 +17,5 @@
            </ul>
         </li>
     </ul>
-
+    <img src="">
+</div>
