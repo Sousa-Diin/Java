@@ -17,5 +17,5 @@
            </ul>
         </li>
     </ul>
-    <img src="img/tela1.png">
+    <img src="/img/tela1.png">
 </div>
