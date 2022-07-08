@@ -24,7 +24,7 @@
         </li>
     </ul>
 </div >
-
+<div>
     <div >
         <img width="60%" src="tela1.png">
         <img width="45%" src="tela2.png">
