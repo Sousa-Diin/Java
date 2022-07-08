@@ -1,6 +1,7 @@
 
 package lista.view;
 
+import java.awt.event.ActionEvent;
 import lista.Aluno;
 import lista.Diario;
 
@@ -39,10 +40,10 @@ public class Janela extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         txtTurma = new javax.swing.JTextField();
-        btnListar = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         lblSituacao = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("SIG");
@@ -96,16 +97,6 @@ public class Janela extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
         jLabel5.setText("Turma:");
 
-        btnListar.setBackground(new java.awt.Color(153, 153, 255));
-        btnListar.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
-        btnListar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lista/img/btnListar-peq.png"))); // NOI18N
-        btnListar.setText("Listar");
-        btnListar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnListarActionPerformed(evt);
-            }
-        });
-
         lblSituacao.setFont(new java.awt.Font("Liberation Mono", 3, 18)); // NOI18N
         lblSituacao.setText("Situação");
 
@@ -146,12 +137,22 @@ public class Janela extends javax.swing.JFrame {
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
+        jButton1.setBackground(new java.awt.Color(153, 153, 255));
+        jButton1.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lista/img/btnListar-peq.png"))); // NOI18N
+        jButton1.setText("Listar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -169,7 +170,7 @@ public class Janela extends javax.swing.JFrame {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(txtNome, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(txtNota, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(48, 48, 48)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5)
@@ -182,9 +183,9 @@ public class Janela extends javax.swing.JFrame {
                         .addComponent(btnLimpar)
                         .addGap(18, 18, 18)
                         .addComponent(btnSalvar)
-                        .addGap(10, 10, 10)
-                        .addComponent(btnListar)))
-                .addContainerGap(25, Short.MAX_VALUE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton1)))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -219,8 +220,8 @@ public class Janela extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnLimpar)
-                    .addComponent(btnListar)
-                    .addComponent(btnSalvar))
+                    .addComponent(btnSalvar)
+                    .addComponent(jButton1))
                 .addGap(32, 32, 32))
         );
 
@@ -272,6 +273,12 @@ public class Janela extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnLimparActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        colecao.gerarDiarioTurma();
+    }//GEN-LAST:event_jButton1ActionPerformed
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -309,8 +316,8 @@ public class Janela extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLimpar;
-    private javax.swing.JButton btnListar;
     private javax.swing.JButton btnSalvar;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
