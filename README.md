@@ -9,11 +9,11 @@
         <li>DateStructsType</li>
         <li>ProjectFx</li>
         <li>ExersiseAtClass
-           <ol>
+           <ul>
               <li>Fila</li>
               <li>Lista</li>
               <li>Pilha</li>
-           </ol>
+           </ul>
         </li>
     </ul>
 
