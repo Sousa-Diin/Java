@@ -43,7 +43,7 @@ public class Diario {
         
         colecao.sort(condicao);//Ordena a colecao de alunos
         
-        System.out.println("Disciplina: " + codigo );
+        System.out.println("\nDisciplina: " + codigo );
         System.out.printf("%-10s%-8s%-9s%-10s\n\n","Nomes","Notas","Faltas","Situacao");
         
         //Laco p/ percorrer colecao
