@@ -17,9 +17,9 @@
            </ul>
         </li>
     </ul>
-    <center>
+    <div style="align:center">
         <img width="60%" src="tela1.png">
         <img width="45%" src="tela2.png">
         <img width="45%" src="tela3.png">
-    </center>
+    </div>
 </div>
