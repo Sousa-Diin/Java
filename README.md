@@ -23,7 +23,7 @@
            </ul>
         </li>
     </ul>
-</div >
+
 <div>
     <div >
         <img width="60%" src="tela1.png">
@@ -36,6 +36,5 @@
         <img width="30%" src="tela2.png">
         <img width="30%" src="tela3.png">
     </div>
-    <table>
-    </table>
+    
 </div>
